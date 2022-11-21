@@ -1,1 +1,6 @@
-
+1.intially i will collect the url of the website 
+2.by using request.url function to get the url
+3.by using beautiful soup we parse the content in that page
+4. identify the text class and image class id
+4.by using findall function in beautiful soup we extra data using class id
+5.these id url are saved to get text and images seperately
