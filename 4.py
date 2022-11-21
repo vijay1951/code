@@ -1,13 +1,13 @@
 
 def form(arr,i,j):
     if arr[i][j]==0:
-            if len(tl)==0:
+            if len(topl)==0:
                 topl.append(i)
                 topl.append(j)
             else:
                 topl[0]=min(i,topl[0])
                 topl[1]=min(j,topl[1])
-            if len(tr)==0:
+            if len(topr)==0:
                 topr.append(i)
                 topr.append(j)
             else:
